@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="Home" class="Portfolio-container">
+            <ul class="nav-list">
+                <li> <a href="#Home" class=active>Home</a></li>
+                <li> <a href="#about">Resume</a></li>
+                <li> <a href="#projects">Project</a></li>
+                <li> <a href="#container3">Contact</a></li>
+            </ul>
+            <div class="left-container">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="content">
+                    <h2>Hi! I am Gargi</h2>
+                    <h1>Web Developer</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, consectetur sit! Blanditiis sunt
+                        deserunt quia repellendus tenetur maxime quos doloremque.</p>
+                    <button class="button-container" onclick="location.href='#container3'">Contact me</button>
+                </div>
+            </div>
+            <div class="right-container"></div>
+            <div class="design">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="about" class="About">
+            <br>
+            <h1 class="Resume"><u>Resume</u></h1>
+            <br>
+            <h2 class="title">Education</h2>
+            <div class="container">
+
+                <div class="education-card">
+                    <h3>East West Model School</h3>
+                    <p>(2010-2023)</p>
+                </div>
+                <div class="education-card">
+                    <h3>Indian Institute of Technology Kharagpur</h3>
+                    <p>(2023-2027)</p>
+                </div>
+            </div>
+            <h2 class="title">Skills</h3>
+                <div class="skills-container">
+                    <div class="skill"> HTML</div>
+                    <div class="skill">  CSS </div>
+                    <div class="skill"> JavaScript </div>
+                    <div class="skill">  React </div>
+                    <div class="skill"> Java </div>
+                    <div class="skill">Python</div>
+                </div>
+        </div>
+        <div id="projects" class="projects">
+            <br>
+            <h1 class="Resume"><u><b>Projects</b></u></h1>
+            <br><br>
+            <div class="container2">
+                <div class="project-box">
+                    <div class="project-title">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, natus?</p>
+                        <h3>Project 1</h3>
+                        <button class="view-button"> View </button>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-title">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, illo.\</p>
+                        <h3>Project 2</h3>
+                        <button class="view-button"> View </button>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-title">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, illo.\</p>
+
+                        <h3>Project 3</h3>
+                        <button class="view-button"> View </button>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-title">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, illo.\</p>
+                        <h3>Project 4</h3>
+                        <button class="view-button"> View </button>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-title">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, illo.\</p>
+                        <h3>Project 5</h3>
+                        <button class="view-button"> View </button>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-title">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, illo.\</p>
+                        <h3>Project 6</h3>
+                        <button class="view-button"> View </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container3" class="container3">
+            <h1 class="Resume2"><u>Contact Me</u></h1>
+            <br>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button class="view-button" type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
